@@ -346,6 +346,7 @@ nav { display: none; }
 .photo-gallery {
     max-width: device-width;
     margin-top: 70px;
+    
     background-color: var(--clr-dark);
     opacity: 0.95;
     color: var(--clr-light);
@@ -353,6 +354,7 @@ nav { display: none; }
 }
 
 .photo {
+    height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -366,6 +368,10 @@ nav { display: none; }
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    width: 464.4px;
+    height: 163px;
+    border: 5px solid black;
+
 }
 
 .photo__item:focus {
