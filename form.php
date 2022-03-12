@@ -29,7 +29,8 @@
             </div>
             <div class="input-box">
                 <span class="details">Email</span>
-                <input type="text" name="demail" placeholder="Enter your Email" required>
+                <!--<input type="text" name="demail" placeholder="Enter your Email" required>-->
+                <input type="email" name="demail" placeholder="Enter your Email" required>
             </div>
             <div class="input-box">
                 <span class="details">Phone Number</span>
