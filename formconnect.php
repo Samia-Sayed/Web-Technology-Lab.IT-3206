@@ -19,12 +19,12 @@ if(isset($_POST['save_date']))
 
     if($query_run)
     {
-        $_SESSION['status'] = "Data Inserted";
+        $_SESSION['status'] = "Date values Inserted";
         header("Location: form.php");
     }
     else
     {
-        $_SESSION['status'] = "Data Inserting Failed";
+        $_SESSION['status'] = "Date values Inserting Failed";
         header("Location: form.php");
     }
 }

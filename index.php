@@ -1,46 +1,43 @@
-<?php 
-  session_start(); 
-
-  if (!isset($_SESSION['username'])) {
-  	$_SESSION['msg'] = "You must log in first";
-  	header('location: login.php');
-  }
-  if (isset($_GET['logout'])) {
-  	session_destroy();
-  	unset($_SESSION['username']);
-  	header("location: login.php");
-  }
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Landing page</title>
 </head>
 <body>
+    <section>
+        <input type="checkbox" id="check">
+        <header>
+            <h2><a href="#" class="logo">MediCare</a></h2>
+            <div class="navigation">
+                <a href="login.php">Log In</a>
+                <a href="register.php">Registration</a>
+                
+            </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+            </label>
+        </header>
+        <div class="content">
+            <div class="info">
+                <h2>Welcome to <br><span>MediCare Services</span></h2>
+                <p class="paragraph">Every year thousands of medicine get wasted. To reduce this huge waste and reuse these medicine we started our journey as Medicare Servies initially. To fulfill this purpose, we started reaching people individually. NGOs came forward to help as well. Any individual or NGOS can donate their unecessary medicines to help others with the support of medicine free of cost. In this way we can help specific people with free medicine services.</p>
+                <!--<a href="practice.html" class="info-btn">View Website</a>
+				<a href="#" class="info-btn">Donate Medicine</a>-->
+            </div>
 
-<div class="header">
-	<h2>Home Page</h2>
-</div>
-<div class="content">
-  	<!-- notification message -->
-  	<?php if (isset($_SESSION['success'])) : ?>
-      <div class="error success" >
-      	<h3>
-          <?php 
-          	echo $_SESSION['success']; 
-          	unset($_SESSION['success']);
-          ?>
-      	</h3>
-      </div>
-  	<?php endif ?>
+        </div>
+        <div class="media-icons">
+            <a href="https://www.facebook.com/MediCare-Services-103537492294372"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+8801817648233"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:servicesm618@gmail.com"><i class="fa-solid fa-envelope"></i></a>
 
-    <!-- logged in user information -->
-    <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-    <?php endif ?>
-</div>
-		
+        </div>
+    </section>
 </body>
 </html>
