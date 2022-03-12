@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="re.css">
+
+    
+
+</head>
+<body>
+    
+    <div class="hero">
+       
+       
+     <h1>Reviews</h1>
+     <div class="review-box">
+        
+         <div id="slide">
+             <div class="card">
+                 <div class="profile">
+                    <img src="image/download.png">
+                    <div>
+                        <h3>Lazz Pharma</h3>
+                        <p>Medicine Pharmacy</p>
+                        <div class="starts">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                         </div>
+                    </div>
+
+                 </div>
+
+                 <p>Excellent service. Super quick delivery with great communications.Highly recommended.</p>
+                 
+             </div>
+             <div class="card">
+                <div class="profile">
+                   <img src="image/bidyanondo_logo2.jpg">
+                   <div>
+                       <h3>Bidyanondo</h3>
+                       <p>Voluntary Organization</p>
+                       <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+   
+                   </div>
+
+                </div>
+
+                <p>Impressive and Innovative Work.Keep it Up.</p>
+                
+            </div>
+            <div class="card">
+                <div class="profile">
+                   <img src="image/download1.png">
+                   <div>
+                       <h3>Save the Children</h3>
+                       <p>Voluntary Organization</p>
+                       <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+   
+                   </div>
+
+                </div>
+
+                <p>Good initiative.Very responsive.Keep the good work</p>
+                
+            </div>
+            <div class="card">
+                <div class="profile">
+                   <img src="image/hlp.png">
+                   <div>
+                       <h3>Helping Hand</h3>
+                       <p>Voluntary Organization</p>
+                       <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                     </div>
+   
+                   </div>
+
+                </div>
+
+                <p>Had a great Experience working with them.</p>
+                
+            </div>
+
+         </div>
+
+
+         <div class="sidebar">
+             <img src="image/up-arrow.png" id="upArrow">
+             <img src="image/down-arrow.png" id="downArrow">
+
+         </div>
+
+     </div>
+
+    </div>
+<script>
+var slide=document.getElementById("slide");
+var upArrow=document.getElementById("upArrow");
+var downArrow=document.getElementById("downArrow");
+
+let x=0;
+upArrow.onclick=function()
+{
+    if(x>"-900"){
+        x=x-300;
+        slide.style.top=x+"px";
+
+    }
+
+
+}
+downArrow.onclick=function(){
+if(x<0){
+    x=x+300;
+    slide.style.top=x+"px";
+}
+
+}
+
+
+</script>
+
+
+
+
+</body>
+</html> 
