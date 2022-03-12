@@ -11,6 +11,7 @@
 body,html {
     font-family: 'Poppins', arial;
     overflow-x: hidden;
+    
 }
 :root {
     --h1 :#AEBF07;
@@ -22,8 +23,26 @@ body,html {
     --circle : #F4F3FF;
     --light-pink : #FFF5F6;
     --maruf : #983F52;
+
+    --clr-light: rgb(208, 236, 247);
+    --clr-dark: #04200c;
+    --clr-accent: #92e6d8;
     
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
 li {
     list-style: none;
 }
