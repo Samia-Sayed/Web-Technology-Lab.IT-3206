@@ -260,6 +260,11 @@ h3 { font-size: var(--fs-h3) }
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
+
+.intro .section_form{
+    border: 2px solid=#fff;
+
+}
 /* header */
 
 /*nav { display: none; }
