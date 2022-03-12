@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system</title>
+  <title>Registration page</title>
   <link rel="stylesheet" type="text/css" href="loginstyle.css">
 </head>
 <body>
