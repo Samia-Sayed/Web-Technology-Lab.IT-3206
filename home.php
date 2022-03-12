@@ -43,6 +43,8 @@
                     <li><a href="#services">Our Service</a></li>
                     <li><a href="#pg">Photo Gallery</a></li>
                     <li><a href="#join">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="review.html">Reviews</a></li>
                 </ul>
                 <div class="burger">
                     <div class="line1"></div>
@@ -100,65 +102,65 @@
             <div class="services">
                 <div class="service">
                     <h3>Medicine Collection</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>People or NGOs can donate medicine by using our website. They can fill up a form. The rest of the things will be done by us.</p>
                 </div> <!-- / service -->
                 
                 <div class="service">
                     <h3>Medicine Donation</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>After getting any request we will go their address and receive the medicine. They can come to our address as well and then we will directly receive their product in hand in our office.</p>
                 </div> <!-- / service -->
                 
                 <div class="service">
                     <h3>Maintaining repository</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>We maintain our website status according to the warehouse information. We always update our website and also take care of our received products in our store house according to specific medicine's requirements.</p>
                 </div> <!-- / service -->
             </div> <!-- / services -->
     </section>
 
 <!-- Photo Gallery -->
-        <section class="photo-gallery" id="pg">
+<section class="photo-gallery" id="pg">
             <h2 class="section__title section__title--gallery">Photo Gallery</h2>
             <p class="section__subtitle"></p>
             
             <div class="photo">
                 <!-- photo item 01 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i1.jpg" alt="" class="photo__img">
+                    <img src="image/Banner 2.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!-- photo item 02 -->
-                <a href="#" class="photo__item">
-                    <img src="image/i2.jpg" alt="" class="photo__img">
+                <a href="image/Banner.jpg" class="photo__item">
+                    <img src="image/Banner.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!--photo item 03 -->
-                <a href="#" class="photo__item">
-                    <img src="image/i1.jpg" alt="" class="photo__img">
+                <a href="Charity.jpg" class="photo__item">
+                    <img src="image/Charity.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!-- photo item 04 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i1.jpg" alt="" class="photo__img">
+                    <img src="image/Instrument.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!-- photo item 05 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i2.jpg" alt="" class="photo__img">
+                    <img src="image/Medicine 2.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!-- photo item 06 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i1.jpg" alt="" class="photo__img">
+                    <img src="image/Medicine 3.jpg" alt="" class="photo__img">
                 </a>
                 
                <!-- photo item 07 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i1.jpg" alt="" class="photo__img">
+                    <img src="image/Medicine.jpg" alt="" class="photo__img">
                 </a>
                 
                 <!-- photo item 08 -->
                 <a href="#" class="photo__item">
-                    <img src="image/i2.jpg" alt="" class="photo__img">
+                    <img src="image/Treatment.jpg" alt="" class="photo__img">
                 </a>
                 
                 
